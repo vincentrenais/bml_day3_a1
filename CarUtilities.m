@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
+/*
+
 #import "CarUtilities.h"
 
 @implementation CarUtilities
@@ -36,3 +38,5 @@ id getRandomItemFromArray(NSArray *anArray) {
 }
 
 @end
+ 
+ */

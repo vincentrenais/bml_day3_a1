@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
+/*
+
 #import <Foundation/Foundation.h>
 
 @interface CarUtilities : NSObject
@@ -16,3 +18,5 @@ NSString *CUGetRandomMakeAndModel(NSDictionary *makesAndModels);
 
 
 @end
+
+*/

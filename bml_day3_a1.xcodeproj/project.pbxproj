@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		B7F19F6C1AD5AF760046A0B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F19F6B1AD5AF760046A0B5 /* main.m */; };
 		B7F19F761AD5C23E0046A0B5 /* CarUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F19F751AD5C23E0046A0B5 /* CarUtilities.m */; };
+		B7F19F781AD5C39A0046A0B5 /* Question1.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F19F771AD5C39A0046A0B5 /* Question1.m */; };
+		B7F19F7A1AD5C79C0046A0B5 /* Question2.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F19F791AD5C79C0046A0B5 /* Question2.m */; };
+		B7F19F7C1AD5C90E0046A0B5 /* Question3.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F19F7B1AD5C90E0046A0B5 /* Question3.m */; };
+		B7F19F7E1AD5CB770046A0B5 /* Question4.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F19F7D1AD5CB770046A0B5 /* Question4.m */; };
+		B7F19F801AD5CE7F0046A0B5 /* Question5.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F19F7F1AD5CE7F0046A0B5 /* Question5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,11 @@
 		B7F19F6B1AD5AF760046A0B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7F19F741AD5C23E0046A0B5 /* CarUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarUtilities.h; sourceTree = "<group>"; };
 		B7F19F751AD5C23E0046A0B5 /* CarUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarUtilities.m; sourceTree = "<group>"; };
+		B7F19F771AD5C39A0046A0B5 /* Question1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question1.m; sourceTree = "<group>"; };
+		B7F19F791AD5C79C0046A0B5 /* Question2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question2.m; sourceTree = "<group>"; };
+		B7F19F7B1AD5C90E0046A0B5 /* Question3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3.m; sourceTree = "<group>"; };
+		B7F19F7D1AD5CB770046A0B5 /* Question4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question4.m; sourceTree = "<group>"; };
+		B7F19F7F1AD5CE7F0046A0B5 /* Question5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,11 @@
 		B7F19F5F1AD5AF760046A0B5 = {
 			isa = PBXGroup;
 			children = (
+				B7F19F7F1AD5CE7F0046A0B5 /* Question5.m */,
+				B7F19F7D1AD5CB770046A0B5 /* Question4.m */,
+				B7F19F7B1AD5C90E0046A0B5 /* Question3.m */,
+				B7F19F791AD5C79C0046A0B5 /* Question2.m */,
+				B7F19F771AD5C39A0046A0B5 /* Question1.m */,
 				B7F19F741AD5C23E0046A0B5 /* CarUtilities.h */,
 				B7F19F751AD5C23E0046A0B5 /* CarUtilities.m */,
 				B7F19F6A1AD5AF760046A0B5 /* bml_day3_a1 */,
@@ -123,7 +138,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F19F7A1AD5C79C0046A0B5 /* Question2.m in Sources */,
 				B7F19F6C1AD5AF760046A0B5 /* main.m in Sources */,
+				B7F19F781AD5C39A0046A0B5 /* Question1.m in Sources */,
+				B7F19F801AD5CE7F0046A0B5 /* Question5.m in Sources */,
+				B7F19F7C1AD5C90E0046A0B5 /* Question3.m in Sources */,
+				B7F19F7E1AD5CB770046A0B5 /* Question4.m in Sources */,
 				B7F19F761AD5C23E0046A0B5 /* CarUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
