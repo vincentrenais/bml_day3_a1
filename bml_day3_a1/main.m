@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CarUtilities.h"
 
 // BASIC SYNTAX
 
@@ -27,18 +28,23 @@ NSString *getRandomMake (NSArray *makes) {
 // THE STATIC KEYWORD
 
 // Static function declaration
-static int getRandomInteger(int, int);
+//static int getRandomInteger(int, int);
 
 // Static function implementation
-static int getRandomInteger(int minimum, int maximum) {
-    return arc4random_uniform((maximum - minimum) + 1) + minimum;
-}
+//static int getRandomInteger(int minimum, int maximum) {
+    //return arc4random_uniform((maximum - minimum) + 1) + minimum;
+//}
 
 
 // Declaration
 
 NSString *getRandomMake(NSArray *);
 
+int countByTwo() {
+    static int currentCount = 0;
+    currentCount += 2;
+    return currentCount;
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -51,10 +57,23 @@ int main(int argc, const char * argv[]) {
         */
         
         
+        /*
         NSArray *makes = @[@"Honda", @"Ford", @"Nissan", @"Porche"];
         NSLog(@"Selected a %@", getRandomMake(makes));
         
+        NSLog(@"%d", countByTwo());    // 2
+        NSLog(@"%d", countByTwo());    // 4
+        NSLog(@"%d", countByTwo());    // 6
+        */
         
+        NSDictionary *makesAndModels = @{
+                                         @"Ford": @[@"Explorer", @"F-150"],
+                                         @"Honda": @[@"Accord", @"Civic", @"Pilot"],
+                                         @"Nissan": @[@"370Z", @"Altima", @"Versa"],
+                                         @"Porsche": @[@"911 Turbo", @"Boxster", @"Cayman S"]
+                                         };
+        NSString *randomCar = CUGetRandomMakeAndModel(makesAndModels);
+        NSLog(@"Selected a %@", randomCar);
     }
     return 0;
 }
