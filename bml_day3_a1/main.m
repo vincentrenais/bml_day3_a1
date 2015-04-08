@@ -24,6 +24,16 @@ NSString *getRandomMake (NSArray *makes) {
 }
  */
 
+// THE STATIC KEYWORD
+
+// Static function declaration
+static int getRandomInteger(int, int);
+
+// Static function implementation
+static int getRandomInteger(int minimum, int maximum) {
+    return arc4random_uniform((maximum - minimum) + 1) + minimum;
+}
+
 
 // Declaration
 
