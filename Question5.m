@@ -12,20 +12,22 @@
 
 // Function with an if loop to find the higher value between two integers
 
-int higherValue (int a, int b){
+void higherValue (int a, int b){
     
-    if (a > b){
-        return a;
+    if (a > b) {
+        NSLog(@"%d is the higher value", a);
+    } else if (a == b) {
+        NSLog(@"Both integers are equal");
     } else {
-        return b;
+        NSLog(@"%d is the higher value", b);
     }
 }
 
 int main(int argc, const char * argv[]) {
-     @autoreleasepool {
- 
-         NSLog(@"The higher value is %d", higherValue(5, 10));
-         
-     }
-     return 0;
+    @autoreleasepool {
+        
+        higherValue(10, 5);
+        
+    }
+    return 0;
 }
