@@ -10,7 +10,10 @@
 
 #import <Foundation/Foundation.h>
 
+// Function with an if loop to find the higher value between two integers
+
 int higherValue (int a, int b){
+    
     if (a > b){
         return a;
     } else {

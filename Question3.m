@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-// Declaration
+// Declaration of a function to perform the sum of two integers
 
 int sumOfIntegers(int a, int b);
 
@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSLog(@"The sum is equal to %d", sumOfIntegers (3, 7));
+    
     }
     return 0;
 }
@@ -26,5 +27,7 @@ int main(int argc, const char * argv[]) {
 // Implementation
 
 int sumOfIntegers(int a, int b) {
+    
     return a + b;
+    
 }

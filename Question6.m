@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+// Function with a for loop
+
 void forLoop (int a){
-    for (int counter = a; counter < 10; counter++) {
+    
+    for (int i = a; i < 10; i++) {
         
-        NSLog(@"%d", counter);
+        NSLog(@"%d", i);
     }
 }
 

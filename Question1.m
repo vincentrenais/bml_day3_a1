@@ -9,16 +9,21 @@
 
 #import <Foundation/Foundation.h>
 
+// Function to convert Fahrenheit to Celsius
 
 double fahrenheitToCelsius(double fahrenheit) {
+    
     double celsius = (fahrenheit - 32) / 1.8;
     return celsius;
+
 }
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
         double fahrenheit = 27;
-        NSLog(@"%f fahrenheit is the same as %.2f celsius", fahrenheit ,fahrenheitToCelsius(fahrenheit));
+        
+        NSLog(@"%.1f fahrenheit is the same as %.1f celsius", fahrenheit ,fahrenheitToCelsius(fahrenheit));
         
     }
     return 0;

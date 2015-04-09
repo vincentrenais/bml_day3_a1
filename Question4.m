@@ -10,10 +10,11 @@
 
 #import <Foundation/Foundation.h>
 
+// Function that returns a string
 
-NSString *someString(NSString *text) {
+NSString *someString(NSString *message) {
     
-    return text;
+    return message;
 }
 
 int main(int argc, const char * argv[]) {
@@ -21,6 +22,7 @@ int main(int argc, const char * argv[]) {
         
         NSString *aString = @"lalala";
         NSLog(@"The string is %@", someString(aString));
+    
     }
     return 0;
 }
