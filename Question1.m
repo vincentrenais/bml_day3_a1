@@ -6,30 +6,20 @@
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
-/*
 
 #import <Foundation/Foundation.h>
 
 
-// declaration
-
-int fahrenheitToCelsius(int celsius);
-
-
-// implementation
-
-int fahrenheitToCelsius(int celsius) {
-    int fahrenheit = celsius * 2 + 30;
-    return fahrenheit;
+double fahrenheitToCelsius(double fahrenheit) {
+    double celsius = (fahrenheit - 32) / 1.8;
+    return celsius;
 }
 
-int main1(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int celsius = 40;
-        NSLog(@"%d fahrenheit is the same as %d celsius", celsius, fahrenheitToCelsius(celsius));
-
+        double fahrenheit = 27;
+        NSLog(@"%f fahrenheit is the same as %.2f celsius", fahrenheit ,fahrenheitToCelsius(fahrenheit));
+        
     }
     return 0;
 }
- 
- */

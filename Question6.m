@@ -1,30 +1,24 @@
 //
-//  Question3.m
+//  Question6.m
 //  bml_day3_a1
 //
 //  Created by Vincent Renais on 2015-04-08.
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
-
 #import <Foundation/Foundation.h>
 
-// Declaration
-
-int sumOfIntegers(int a, int b);
-
+void forLoop (int a){
+    for (int counter = a; counter < 10; counter++) {
+        
+        NSLog(@"%d", counter);
+    }
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSLog(@"The sum is equal to %d", sumOfIntegers (3, 7));
+        forLoop(2);
     }
     return 0;
-}
-
-
-// Implementation
-
-int sumOfIntegers(int a, int b) {
-    return a + b;
 }

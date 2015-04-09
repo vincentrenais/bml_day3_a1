@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
-/*
+
 
 #import <Foundation/Foundation.h>
 
@@ -19,4 +19,3 @@ NSString *CUGetRandomMakeAndModel(NSDictionary *makesAndModels);
 
 @end
 
-*/

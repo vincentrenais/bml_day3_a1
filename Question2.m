@@ -7,6 +7,5 @@
 //
 
 // Expected results:
-
 // d = d
 

@@ -6,25 +6,21 @@
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
-/*
-
- #import <Foundation/Foundation.h>
 
 
-// Declaration
+#import <Foundation/Foundation.h>
+
 
 NSString *someString(NSString *text) {
-
+    
     return text;
 }
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSString *aString = @"blablabla";
+        NSString *aString = @"lalala";
         NSLog(@"The string is %@", someString(aString));
     }
     return 0;
 }
- 
-*/
